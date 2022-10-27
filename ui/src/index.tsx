@@ -201,7 +201,7 @@ export const Extension = (props: {
   resource: State;
 }) => {
   const ro = parseInfoFromResourceNode(props.tree, props.resource);
-  {console.log(ro)};
+  {console.log(props)};
   return <>
     <div>HELLLO ARGO PLUGIN TEST</div>
     <RolloutWidget rollout={ro} />;
